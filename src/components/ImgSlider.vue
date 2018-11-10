@@ -142,7 +142,7 @@ export default {
     mc.on("swipeleft", function() {
       self.prevImg();
     });
-    mc.on("pan", function() {
+    mc.on("swiperight", function() {
       self.nextImg();
     });
     document.onkeydown = function(evt) {
