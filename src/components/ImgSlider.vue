@@ -1,6 +1,6 @@
 <template>
 	<div id="slider"
-		:style={cursor:cursor}
+		:style="{cursor:cursor}"
 		@mouseover="displayCarrets()"
 		@mouseleave="hideCarrets()"
 		>
